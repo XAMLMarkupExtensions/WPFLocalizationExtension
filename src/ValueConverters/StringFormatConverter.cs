@@ -10,12 +10,8 @@ namespace WPFLocalizeExtension.ValueConverters
 {
     #region Usings
     using System;
-    using System.Collections.Generic;
     using System.Globalization;
-    using System.Linq;
     using System.Reflection;
-    using System.Text;
-    using System.Threading.Tasks;
     using System.Windows;
     using System.Windows.Data;
     #endregion
@@ -47,10 +43,10 @@ namespace WPFLocalizeExtension.ValueConverters
                 }
             }
 
-            if (targetType != typeof(string))
-                throw new Exception("Only string as targettype is allowed");
+            if (!targetType.IsAssignableFrom(typeof(string)))
+                throw new Exception("TargetType is not supported strings");
 
-            if (values == null | values.Length < 1)
+            if (values == null || values.Length < 1)
                 throw new Exception("Not enough parameters");
 
             if (values[0] == null)
