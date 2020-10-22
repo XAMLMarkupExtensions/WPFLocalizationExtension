@@ -37,3 +37,6 @@ Example.xlsx
 packages/
 .vs/
 *.nupkg
+
+# Jetbrain Rider Cache
+.idea/ 

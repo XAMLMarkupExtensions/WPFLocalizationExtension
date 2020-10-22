@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFLocalizeExtension", "..\src\WPFLocalizeExtension.csproj", "{4A1CC23E-BA4A-4AC8-89CF-E29E0547EAEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFLocalizeExtension.UnitTests", "WPFLocalizeExtension.UnitTests\WPFLocalizeExtension.UnitTests.csproj", "{93C35807-8585-43E3-BA53-15A7B811828E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A1CC23E-BA4A-4AC8-89CF-E29E0547EAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1CC23E-BA4A-4AC8-89CF-E29E0547EAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1CC23E-BA4A-4AC8-89CF-E29E0547EAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1CC23E-BA4A-4AC8-89CF-E29E0547EAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C35807-8585-43E3-BA53-15A7B811828E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C35807-8585-43E3-BA53-15A7B811828E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C35807-8585-43E3-BA53-15A7B811828E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C35807-8585-43E3-BA53-15A7B811828E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
