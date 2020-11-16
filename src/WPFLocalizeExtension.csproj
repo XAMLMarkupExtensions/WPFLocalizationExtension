@@ -70,7 +70,7 @@
 	<ItemGroup>
     <PackageReference Include="XAMLMarkupExtensions" Version="2.0.0" />
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
-		<PackageReference Include="GitVersionTask" Version="5.3.7" PrivateAssets="All" />
+		<PackageReference Include="GitVersionTask" Version="5.5.1" PrivateAssets="All" />
 	</ItemGroup>
 
   <Target Name="PublishToNugetWithAPIKey" AfterTargets="GenerateNuspec">
