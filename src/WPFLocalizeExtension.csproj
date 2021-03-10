@@ -63,7 +63,7 @@
   <!--References for .Net Core 3.x-->
   <ItemGroup Condition="$(TargetFramework.StartsWith('netcore'))">
     <PackageReference Include="System.Management" Version="4.7.0" />
-    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
   </ItemGroup>
 
   <!--PackageReference for all framworks-->
